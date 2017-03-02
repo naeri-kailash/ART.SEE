@@ -1,0 +1,33 @@
+{
+  "name": "art.see",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "debug": "node --inspect --debug-brk index",
+    "test": "tape tests/**/*test.js | tap-diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naeri-kailash/ART.SEE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naeri-kailash/ART.SEE/issues"
+  },
+  "homepage": "https://github.com/naeri-kailash/ART.SEE#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.3"
+  }
+}
