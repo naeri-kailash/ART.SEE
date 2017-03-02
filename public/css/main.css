@@ -1,0 +1,158 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  /*padding-top: 70px;*/
+}
+
+
+/*Navigation*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.open>a {
+  background: none;
+  box-shadow: none;
+  color: #000
+}
+
+.affix-top .navbar-nav>.active>a {
+  color: #fff
+}
+
+.affix-top {
+  /* navbar style at top */
+  background: rgba(0,0,0,0.3);
+  border-color: transparent;
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+
+.affix-top .nav>li>a, .affix-top .fa-bars {
+  color: #fff;
+  background: transparent;
+}
+
+.affix-top .navbar-collapse {
+  /*border-color:transparent;*/
+  box-shadow:initial;
+}
+
+.affix-top .navbar-default .navbar-nav>li>a:hover, .affix-top .navbar-default .navbar-nav>li>a:active {
+  /*color: white;*/
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  -o-transition:padding 0.2s ease-out;
+  transition:padding 0.2s ease-out;
+  border-bottom: 1px solid lightgray;
+}
+
+.affix .navbar-right {
+  border-left: 1px solid lightgray;
+}
+
+.affix header.navbar {
+  border-bottom: 5px solid lightgray;
+}
+
+.affix .fa-bars {
+  color: #000;
+}
+
+.affix .navbar-brand > img {
+  -webkit-filter: invert(0);
+  filter: invert(50%);
+}
+
+.navbar-brand > img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand > img {
+  max-width: 40px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/*section {*/
+  /*height:calc(90% - 50px);
+  height: 90vh;
+}*/
+
+.hero-image {
+  background: no-repeat center url('/images/heroimage.jpg');
+  background-size: cover;
+  /*background-image:url('/images/heroimage.jpg');*/
+  padding-top:250px;
+  height:100vh;
+  min-height:400px;
+  max-height:600px;
+}
+
+.artwork {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px solid lightgray;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 40px;
+  min-height: 100px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons a {
+  padding: 10px;
+  color: white;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 768px) {
+   .navbar-right {
+    border-left: 1px solid white;
+  }
+  header.navbar {
+    border-bottom: 1px solid white;
+  }
+
+}
+
+/* Larger than desktop */
+@media (min-width: 992px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
