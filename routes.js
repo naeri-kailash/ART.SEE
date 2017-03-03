@@ -1,10 +1,10 @@
 var fs = require('fs')
-var db = require('db')
+var db = require('./data/db')
 
 module.exports = {
-  getHome: getHome,
-  getArtwork: getArtwork,
-  getArtist: getArtist
+  getHome: getHome
+  // getArtwork: getArtwork,
+  // getArtist: getArtist
 }
 
 // functions...

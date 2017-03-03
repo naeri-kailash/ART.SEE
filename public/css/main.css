@@ -110,12 +110,21 @@ body {
   max-height:600px;
 }
 
+.main-image {
+  background: no-repeat center;
+  background-size: cover;
+  padding-top:250px;
+  height:100vh;
+  min-height:400px;
+  max-height:600px;
+}
+
 .artwork {
-  margin: 20px 0;
+  margin: 20px 20px;
   padding: 10px;
   border: 2px solid lightgray;
   box-shadow: 5px 5px 10px lightgray;
-  max-width: 550px;
+  max-width: 520px;
   display: inline-block;
 }
 
