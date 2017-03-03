@@ -1,4 +1,4 @@
-var fs = require('fs')
+// var fs = require('fs') redundant
 var db = require('./data/db')
 
 module.exports = {
@@ -34,11 +34,15 @@ function getHome (req, res) {
 }
 
 function getArtwork (req, res) {
-  var artworkId = req.params.id
-  var data = db.readArtwork(artworkId)
-  res.render('artwork', data)
+  var artworkId = Number(req.params.id)
+  db.readArtwork(artworkId, function (err, artworkDets) {
+    if (err) {
+      return err
+    }
+    res.render('artwork', artworkDets)
+  })
 }
-
-function getArtist (req, res) {
-
-}
+//
+// function getArtist (req, res) {
+//
+// }

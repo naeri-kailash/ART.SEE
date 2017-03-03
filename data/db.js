@@ -22,14 +22,14 @@ function readArtist (artistId, cb) {
 }
 
 function readArtwork (artworkId, cb) {
-  fs.readFile('data/artwork.json', 'utf8', function (err, data) {
-    if (err) {
-      return cb(err)
-    }
-    var json = JSON.parse(data)
-    var result = json.find(function (a) {
-      return a.id === artworkId
+  // fs.readFile('data/artwork.json', 'utf8', function (err, data) {
+  //   if (err) {
+  //     return cb(err)
+  //   }
+  //   var json = JSON.parse(data)
+    var result = artwork.find(function (art) {
+      return art.artworkId === artworkId
     })
     cb(null, result)
-  })
+  // })
 }
