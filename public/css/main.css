@@ -115,6 +115,8 @@ body {
   padding: 10px;
   border: 2px solid lightgray;
   box-shadow: 5px 5px 10px lightgray;
+  max-width: 550px;
+  display: inline-block;
 }
 
 footer {
