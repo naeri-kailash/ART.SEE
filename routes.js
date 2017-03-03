@@ -35,7 +35,7 @@ function getHome (req, res) {
 
 function getArtwork (req, res) {
   var artworkId = req.params.id
-  var data = readArtwork(artworkId)
+  var data = db.readArtwork(artworkId)
   res.render('artwork', data)
 }
 
