@@ -4,11 +4,11 @@ var artists = require('./artist.json')
 var artwork = require('./artwork.json')
 
 module.exports = {
-  getArtist: getArtist,
-  getArtwork: getArtwork
+  readArtist: readArtist,
+  readArtwork: readArtwork
 }
 
-function readArtist (artistID, cb) {
+function readArtist (artistId, cb) {
   fs.readFile('data/artist.json', 'utf8', function (err, data) {
     if (err) {
       return cb(err)
@@ -21,14 +21,14 @@ function readArtist (artistID, cb) {
   })
 }
 
-function readArtwork (id, cb) {
+function readArtwork (artworkId, cb) {
   fs.readFile('data/artwork.json', 'utf8', function (err, data) {
     if (err) {
       return cb(err)
     }
     var json = JSON.parse(data)
     var result = json.find(function (a) {
-      return a.id === id
+      return a.id === artworkId
     })
     cb(null, result)
   })
