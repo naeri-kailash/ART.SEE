@@ -5,7 +5,7 @@ var routes = require('./routes')
 
 var app = express()
 
-//Middleware
+//  Middleware
 app.engine('hbs', hbs({
   extname: 'hbs',
   defaultLayout: 'main'
