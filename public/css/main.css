@@ -111,12 +111,10 @@ body {
 }
 
 .main-image {
-  background: no-repeat center;
-  background-size: cover;
-  padding-top:250px;
+  margin: auto;
   height:100vh;
   min-height:400px;
-  max-height:600px;
+  max-height:600px;*/
 }
 
 .artwork {

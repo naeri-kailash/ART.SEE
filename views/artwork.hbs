@@ -1,16 +1,20 @@
-<section class="jumbotron">
+<section class="jumbotron ">
   <img src="/images/{{artworkId}}.jpg" class="main-image img-responsive" alt="art">
 </section>
 
 <section>
   <div class="container">
-      <h1>Welcome to Art.See.</h1>
-      {{address}}
-      <a href="/artist/{{artistId}}">Artist</a>
+    <a href="/artist/{{artistId}}">Artist</a>
+      <h1>{{name}}</h1>
+      <p>Description: {{about}}</p>
+      <ul>
+        <li>Address: {{address}}</li>
+        <li>Likes: {{likes}}</li>
+      </ul>
   </div>
 </section>
 
-<section>
+<!-- <section>
   <div class="container">
     <h2>Latest Artwork</h2>
     {{#each ID}}
@@ -18,4 +22,4 @@
     {{/each}}
   </div>
 
-</section>
+</section> -->
