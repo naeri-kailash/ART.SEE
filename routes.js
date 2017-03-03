@@ -1,18 +1,38 @@
 var fs = require('fs')
 
 module.exports = {
-  getHome: getHome,
-  getArtProfile: getArtProfile,
-  getArtistProfile: getArtistProfile
+  getHome: getHome
+  // getgetArtID: getArtID,
+  // getArtistID: getArtistID
 }
 
 // functions...
-
-function getHome (req, res) {
-  res.render('home')
+function getImageID () {
+  return {
+    ID: [
+      '1001',
+      '1002',
+      '1003',
+      '2001',
+      '2002',
+      '2003',
+      '2004',
+      '2005',
+      '3001',
+      '3002',
+      '3003',
+      '4001',
+      '5001'
+    ]
+  }
 }
 
-function getArtProfile (req, res) {
+function getHome (req, res) {
+  var data = getImageID()
+  res.render('home', data)
+}
+
+function getArtID (req, res) {
 
 }
 
@@ -27,7 +47,7 @@ function renderArtProfile (req, res) {
   // render page with information from db
 }
 
-function getArtistProfile (req, res) {
+function getArtistID (req, res) {
 
 }
 
