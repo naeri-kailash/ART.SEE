@@ -12,7 +12,6 @@ html {
 
 body {
   min-height: 100%;
-  /*padding-top: 70px;*/
 }
 
 
@@ -107,9 +106,12 @@ body {
 
 .main-image {
   margin: auto;
-  height:100vh;
-  min-height:400px;
-  max-height:600px;*/
+  max-height:600px;
+  padding: 10px;
+  border: 2px solid lightgray;
+  box-shadow: 5px 5px 10px lightgray;
+  /*height:100vh;
+  /*min-height:400px;*/
 }
 
 .artwork {
@@ -124,18 +126,12 @@ body {
 footer {
   background-color: #333333;
   color: white;
+  position: relative;
+  bottom: 0;
+  margin: auto;
+  margin-top: 200px;
   padding: 40px;
   min-height: 100px;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: center;
-}
-
-footer .social-icons a {
-  padding: 10px;
-  color: white;
 }
 
 /* Larger than mobile */
