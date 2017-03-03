@@ -1,9 +1,10 @@
 var fs = require('fs')
+var db = require('db')
 
 module.exports = {
-  getHome: getHome
-  // getgetArtID: getArtID,
-  // getArtistID: getArtistID
+  getHome: getHome,
+  getArtwork: getArtwork,
+  getArtist: getArtist
 }
 
 // functions...
@@ -32,32 +33,10 @@ function getHome (req, res) {
   res.render('home', data)
 }
 
-function getArtID (req, res) {
+function getArtwork (req, res) {
 
 }
 
-function linkArtProfile (req, res) {
-  // read name of image
-  // use name of image to populate link
-}
+function getArtist (req, res) {
 
-function renderArtProfile (req, res) {
-  // take image name
-  // read object in database based on image name
-  // render page with information from db
-}
-
-function getArtistID (req, res) {
-
-}
-
-function linkArtistProfile (req, res) {
-  // read name of artist
-  // use name of artist to populate link
-}
-
-function renderArtistProfile (req, res) {
-  // take artist name
-  // read object in database based on artist name
-  // render page with information from db
 }
