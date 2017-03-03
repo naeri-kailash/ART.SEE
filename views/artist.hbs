@@ -1,0 +1,20 @@
+<section class="jumbotron">
+  <img src="/images/{{id}}001.jpg" class="main-image img-responsive" alt="art">
+</section>
+
+<section>
+  <div class="container">
+      <h1>Welcome to Art.See.</h1>
+      {{address}}
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Latest Artwork</h2>
+    {{#each ID}}
+      <a href="/artwork/{{this}}"><img class="img-responsive artwork" src="/images/{{this}}.jpg" alt="Artwork" /></a>
+    {{/each}}
+  </div>
+
+</section>

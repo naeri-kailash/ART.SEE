@@ -3,8 +3,8 @@ var db = require('./data/db')
 
 module.exports = {
   getHome: getHome,
-  getArtwork: getArtwork
-  // getArtist: getArtist
+  getArtwork: getArtwork,
+  getArtist: getArtist
 }
 
 // functions...
@@ -43,6 +43,12 @@ function getArtwork (req, res) {
   })
 }
 //
-// function getArtist (req, res) {
-//
-// }
+function getArtist (req, res) {
+  var artistId = Number(req.params.id)
+  db.readArtist(artistId, function (err, artistDets) {
+    if (err) {
+      return err
+    }
+    res.render('artist', artistDets)
+  })
+}

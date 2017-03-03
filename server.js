@@ -17,6 +17,7 @@ app.use(express.static('public'))
 // routes
 app.get('/', routes.getHome)
 app.get('/artwork/:id', routes.getArtwork)
+app.get('/artist/:id', routes.getArtist)
 // app.get('/artwork/:id/artist/:artistid', routes.getArtistID)
 
 module.exports = app
