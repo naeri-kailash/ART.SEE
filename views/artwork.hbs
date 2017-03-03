@@ -4,12 +4,22 @@
 
 <section>
   <div class="container">
-    <a href="/artist/{{artistId}}">Artist</a>
-      <h1>{{name}}</h1>
-      <p>Description: {{about}}</p>
-      <ul>
-        <li>Address: {{address}}</li>
-        <li>Likes: {{likes}}</li>
-      </ul>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        {{#if name}}
+          <h2>{{name}}</h2>
+        {{/if}}
+        {{#if about}}
+          <p><strong>Description:</strong> {{about}}</p>
+        {{/if}}
+        {{#if address}}
+          <p><strong>Address: </strong>{{address}}</p>
+        {{/if}}
+        {{#if likes}}
+          <p><strong>Likes:</strong> {{likes}}</p>
+        {{/if}}
+        <p><a href="/artist/{{artistId}}">Click here</a> for more artist information</p>
+      </div>
+    </div>
   </div>
 </section>
