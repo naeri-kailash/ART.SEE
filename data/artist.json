@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Xoe Hall",
+    "id": 1,
+    "about": "Pop Artist - Painter of Badass Babes - Glitterist Muralist of Cities and 'Bus Stop Boutiques'  Decorator of Second Skins",
+    "email": "",
+    "phone": "",
+    "website": "http://www.xoehall.co.nz",
+    "followers": 30
+  },
+  {
+    "name": "Component",
+    "id": 2,
+    "about": "Born and raised in Grey Lynn, component taught himself the art of stencilling. The street was his canvas, his means for critiquing society.  Cut Collective collaborations and a shared studio on K Road led to his role as curator of the street art website, streetarse.co.nz.  Despite his community focus, his work has been seen throughout New Zealand.  Shows such as Picture Perfect in a World of Chaos at Silo Park in 2012 stand out alongside exhibitions at The Dowse, Auckland City Gallery, Dunedin Public Art Gallery and Parnell's Webb Gallery.",
+    "email": "componentsp23@gmail.com",
+    "phone": "0226211226",
+    "website": "http://component.co.nz/",
+    "followers": 43
+  },
+  {
+    "name": "Paul Walsh",
+    "id": 3,
+    "about": "Paul Walsh is a self-taught artist from Rotorua. He works in a range of mediums, from watercolour to spraypaint.",
+    "email": "paul@paulwalsh.co.nz",
+    "phone": "",
+    "website": "http://paulwalsh.co.nz/",
+    "followers": 26
+  },
+  {
+    "name": "Johnny 4Higher",
+    "id": 4,
+    "about": "Johnny is a full-time freelance mural artist with fourteen years professional experience, originally from Christchurch, based in Auckland, with an artistic interest in the broader cultural spectrum of the Pacific.",
+    "email": "jonny@graffitimurals.co.nz",
+    "phone": "",
+    "website": "http://www.graffitimurals.co.nz/",
+    "followers": 36
+  },
+  {
+    "name": "Olivia Laita",
+    "id": 5,
+    "about": "Arts Management & Production | Curator | Pop-Up Gallerist | Post-Graffiti Pacific | Urban Contemporary | Manager of Creative Space 'Studio 40'",
+    "email": "",
+    "phone": "",
+    "website": "http://www.olivialaita.com/",
+    "followers": 50
+  }
+]

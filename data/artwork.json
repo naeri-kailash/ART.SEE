@@ -1,0 +1,119 @@
+[
+  {
+    "name": "",
+    "artworkId": 1001,
+    "artistId": 1,
+    "about": "Almost looks like David Bowie",
+    "likes": 13,
+    "address": "3 Scarborough Lane",
+    "latlong": "-36.855898, 174.781610"
+  },
+  {
+    "name": "",
+    "artworkId": 1002,
+    "artistId": 1,
+    "about": "Trippy",
+    "likes": 17,
+    "address": "88 Grange Road",
+    "latlong": "-36.881707, 174.754948"
+  },
+  {
+    "name": "",
+    "artworkId": 1003,
+    "artistId": 1,
+    "about": "Nice croc",
+    "likes": 15,
+    "address": "15 Ewington Ave",
+    "latlong": "-36.878231, 174.750860"
+  },
+  {
+    "name": "Playing With Placement 2016",
+    "artworkId": 2001,
+    "artistId": 2,
+    "about": "Kid with phone and teddy bear",
+    "likes": 7,
+    "address": "27 Meola Rd",
+    "latlong": "-36.857227, 174.717830"
+  },
+  {
+    "name": "Burger Boy",
+    "artworkId": 2002,
+    "artistId": 2,
+    "about": "Cool Pulp Fiction art at a downtown burger store",
+    "likes": 0,
+    "address": "149 Quay St",
+    "latlong": "-36.842458, 174.764047"
+  },
+  {
+    "name": "Waiheke Container",
+    "artworkId": 2003,
+    "artistId": 2,
+    "about": "Found on Waiheke",
+    "likes": 5,
+    "address": "46 Beach Parade",
+    "latlong": "-36.780460, 175.009295"
+  },
+  {
+    "name": "Lifes a Lottery",
+    "artworkId": 2004,
+    "artistId": 2,
+    "about": "Cool!",
+    "likes": 8,
+    "address": "285 Great North Rd",
+    "latlong": "-36.865113, 174.745145"
+  },
+  {
+    "name": "",
+    "artworkId": 2005,
+    "artistId": 2,
+    "about": "Found in Sohole",
+    "likes": 3,
+    "address": "14 Williamson Ave",
+    "latlong": "2425362376 1253e562"
+  },
+  {
+    "name": "",
+    "artworkId": 3001,
+    "artistId": 3,
+    "about": "RIP Prince",
+    "likes": 112,
+    "address": "72 Karangahape Road",
+    "latlong": "-36.858142, 174.762233"
+  },
+  {
+    "name": "",
+    "artworkId": 3002,
+    "artistId": 3,
+    "about": "How peaceful",
+    "likes": 112,
+    "address": "10 St Benedicts",
+    "latlong": "-36.861694, 174.760567"
+  },
+  {
+    "name": "Piggy Stardust",
+    "artworkId": 3003,
+    "artistId": 3,
+    "about": "I see this on my commute every day its great",
+    "likes": 2,
+    "address": "53 Wynyard Rd",
+    "latlong": "-36.872684, 174.755404"
+  },
+  {
+    "name": "",
+    "artworkId": 4001,
+    "artistId": 4,
+    "about": "This one was painted with the help of some talented West Auckland youth",
+    "likes": 28,
+    "address": "82 Railside Ave",
+    "latlong": "-36.883114, 174.631412"
+  },
+  {
+    "name": "An Askew One",
+    "artworkId": 5001,
+    "artistId": 5,
+    "about": "Silo Park Street Art",
+    "likes": 56,
+    "address": "8-12 Brigham St",
+    "latlong": "-36.840516, 174.755969"
+  }
+]
