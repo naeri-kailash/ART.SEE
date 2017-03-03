@@ -95,11 +95,6 @@ body {
   background-color: transparent;
 }
 
-/*section {*/
-  /*height:calc(90% - 50px);
-  height: 90vh;
-}*/
-
 .hero-image {
   background: no-repeat center url('/images/heroimage.jpg');
   background-size: cover;
