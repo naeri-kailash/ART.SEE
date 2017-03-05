@@ -9,6 +9,7 @@
         {{#if name}}
           <h2>{{name}}</h2>
         {{/if}}
+        <p><strong>Artist: </strong><a href="/artist/{{artistId}}">{{artist}}</a></p>
         {{#if about}}
           <p><strong>Description:</strong> {{about}}</p>
         {{/if}}
@@ -18,7 +19,6 @@
         {{#if likes}}
           <p><strong>Likes:</strong> {{likes}}</p>
         {{/if}}
-        <p><a href="/artist/{{artistId}}">Click here</a> for more artist information</p>
       </div>
     </div>
   </div>
